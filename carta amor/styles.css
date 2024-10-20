@@ -1,0 +1,56 @@
+/* Estilos generales para que la carta se vea bien */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Trajanus Roma Font', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; /* Imagen de fondo ocupa toda la pantalla */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carta {
+    background: rgba(122, 185, 244, 0.85); /* Fondo translúcido */
+    padding: 40px; /* Más espacio interior */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 50%;  /* Casi toda la pantalla */
+    height: 70%; /* Altura ocupando casi todo */
+    max-width: 1000px;  /* Limitar el ancho máximo */
+    max-height: 100%; /* Limitar la altura */
+    overflow-y: auto;  /* Scroll si el contenido es demasiado alto */
+    line-height: 1.6; /* Más espacio entre líneas */
+    margin: 20px auto; /* Centrar el contenedor */
+    text-align: justify; /* Justificar texto para mejor distribución */
+}
+
+h1 {
+    color: #2a036d;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #492fb0;
+    color: rgb(8, 1, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
